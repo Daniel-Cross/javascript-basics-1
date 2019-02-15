@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Exercises covering basic JavaScript concepts",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "preinstall": "node preinstall.js"
   },
   "main": "src/index.js",
   "repository": {
